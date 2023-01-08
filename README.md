@@ -7,7 +7,7 @@ http://forums.fivetechsupport.com/viewtopic.php?f=3&t=42331
 DualGrid Demo use 2 x CLASS TGrid(), based on Listview (SysListView32)
 Like Windows Explorer you can switch View Style and use SHFileOperation() to copy,move, rename or delete File(s)
 
-DualGrid Demo have different Style e.g. use Checkbox (Device iPhone) or use “virtual” Grid (More Property) 
+DualGrid Demo have different Style e.g. use Checkbox (Device iPhone) or use “virtual” Grid (More Property)
 which can handle Array Data “on-fly” up to 100.000.000 Elements
 
 You can add new TAB ( TFolder ) on each TGrid() using n-Dim Array with #xtranslate
