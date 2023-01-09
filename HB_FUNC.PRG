@@ -1034,7 +1034,7 @@ HB_FUNC( LV_GETCHECKSTATE)
       HWND hWnd = ( HWND ) hb_parnll( 1 );
    #endif
    UINT nRow   = (UINT) hb_parnl (2);
-   hb_retl ( ListView_GetCheckState(hWnd-1, nRow) );
+   hb_retl ( ListView_GetCheckState(hWnd, nRow-1) );
 }
 
 // LV_GETGRIDDISPINFOINDEX(nPtrNMHDR)
